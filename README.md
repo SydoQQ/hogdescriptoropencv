@@ -1,0 +1,2 @@
+# hogdescriptoropencv
+hogdescriptoropencv
