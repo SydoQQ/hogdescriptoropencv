@@ -1,0 +1,14 @@
+# Videofile
+*.mp4
+
+# Libfile
+*.so.*
+
+# Objectfile
+*.o
+
+# Exefile
+hogdescriptor
+main
+simple
+simple.cpp
