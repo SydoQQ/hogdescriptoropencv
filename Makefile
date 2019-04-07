@@ -12,7 +12,7 @@ $(TAGET): $(OBJECT)
 	$(CC) $(CFLAGS) $(OBJECT) -o $@ $(LFLAGS)
 
 $(OBJECT): $(SOURCE)
-	$(CC) $(INCLUDE) $(SOURCE) -c
+	$(CC)  $(CFLAGS) $(INCLUDE) $(SOURCE) -c
 
 .PHONY: clean
 
