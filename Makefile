@@ -6,7 +6,7 @@ SOURCE=main.cpp hogdescriptorclass.cpp
 OBJECT=$(SOURCE:.cpp=.o)
 TAGET=hogdescriptor
 
-all: $(TAGET)
+all: $(TAGET) cleano
 
 $(TAGET): $(OBJECT)
 	$(CC) $(CFLAGS) $(OBJECT) -o $@ $(LFLAGS)
@@ -15,6 +15,9 @@ $(OBJECT): $(SOURCE)
 	$(CC)  $(CFLAGS) $(INCLUDE) $(SOURCE) -c
 
 .PHONY: clean
+
+cleano:
+	rm -fr *.o
 
 clean:
 	rm -fr *.o

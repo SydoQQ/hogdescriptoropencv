@@ -1,3 +1,6 @@
+#ifndef HOGDESCRIPTORCLASS_H
+#define HOGDESCRIPTORCLASS_H
+
 #include <iostream>
 #include "opencv2/core/core.hpp"
 #include "opencv2/imgproc/imgproc.hpp"
@@ -19,3 +22,5 @@ public:
 	void showVideoCap();
 	~hogdescriptorrecognotion();
 };
+
+#endif

@@ -11,4 +11,4 @@
 -lopencv_photo 
 -lopencv_stitching 
 -lopencv_videoio 
--lopencv_video 
+-lopencv_video
